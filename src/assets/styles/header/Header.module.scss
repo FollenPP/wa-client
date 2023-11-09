@@ -1,0 +1,49 @@
+@import '../variables.scss';
+button {
+	background: none;
+	color: inherit;
+	border: none;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 31px 28px 0 28px;
+	color: white;
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+}
+.leftIcon {
+}
+
+.rightIcon {
+}
+
+.menuContainer {
+	position: relative;
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 93px;
+	height: 111px;
+	top: 40px;
+	left: -110px;
+	padding: 17px 16px 0px 23px;
+
+	border-radius: 10px 0px 10px 10px;
+	background-color: white;
+}
+
+.buttonMenu {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+}
+.buttonMenu:hover {
+	color: $accent;
+}
