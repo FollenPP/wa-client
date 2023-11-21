@@ -12,7 +12,7 @@ body {
 	position: relative;
 	line-height: 1.65;
 	font-family: $font-family;
-	background-color: $black;
+	background-color: $white;
 }
 article,
 aside,
@@ -60,10 +60,7 @@ strong {
 dfn {
 	font-style: italic;
 }
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
+
 mark {
 	background: #ff0;
 	color: #000;
@@ -123,6 +120,8 @@ button {
 button,
 select {
 	text-transform: none;
+	background: none;
+	border: none;
 }
 button,
 html input[type='button'],
@@ -188,4 +187,27 @@ th {
 
 #root {
 	height: 100%;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+body {
+	font-size: 16px;
+}
+
+.fs-sm {
+	font-size: 14px;
+}
+.fs-xs {
+	font-size: 14px;
 }

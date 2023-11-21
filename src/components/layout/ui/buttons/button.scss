@@ -1,0 +1,58 @@
+@import '../../../../assets/styles/variables.scss';
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconButton {
+	&.lg {
+		border-radius: 10px;
+		height: 60px;
+		width: 60px; // Исправлено с 'weight' на 'width'
+	}
+	&.md {
+		border-radius: 8px;
+		height: 50px;
+		width: 50px;
+	}
+	&.sm {
+		border-radius: 6px;
+		height: 40px;
+		width: 40px;
+	}
+	&.xs {
+		border-radius: 4px;
+		height: 30px;
+		width: 30px;
+	}
+}
+
+.textButton {
+	text-align: center;
+	&.lg {
+		border-radius: 10px;
+		height: 61px;
+		width: 107px;
+	}
+	&.md {
+		border-radius: 8px;
+		height: 51px;
+		width: 97px;
+	}
+	&.sm {
+		border-radius: 6px;
+		height: 41px;
+		width: 87px;
+	}
+}
+
+.dark {
+	background-color: $black;
+	color: $white;
+}
+
+.light {
+	background-color: $white;
+	color: $black;
+}
